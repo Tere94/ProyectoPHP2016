@@ -1,0 +1,139 @@
+/*Teresa Rodriguez Perez*/
+
+.opacity img {
+filter:alpha(opacity=100);
+-moz-opacity: 1.0;
+opacity: 1.0;}
+
+.opacity:hover img {
+filter:alpha(opacity=50);
+-moz-opacity: 0.5;
+opacity: 0.5;
+}
+
+
+/*Hombre*/
+#barrigaH {
+	position: absolute;
+	left: 109px;
+	top: 305px;
+	z-index: 2;
+	height: 121px;
+}
+#torsoH {
+	position: absolute;
+	left: 110px;
+	top: 212px;
+	z-index: 1;
+}
+#cabezaH {
+	position: absolute;
+	left: 110px;
+	top: 87px;
+	z-index: 1;
+}
+#brazoIzqH {
+	position: absolute;
+	left: 42px;
+	top: 213px;
+	z-index: 2;
+}
+#brazoDerH {
+	position: absolute;
+	left: 248px;
+	top: 211px;
+	z-index: 2;
+}
+#manoDerH {
+	position: absolute;
+	left: 282px;
+	top: 437px;
+	z-index: 1;
+}
+#manoIzqH {
+	position: absolute;
+	left: 23px;
+	top: 434px;
+	z-index: 1;
+}
+#cinturaH {
+	position: absolute;
+	left: 109px;
+	top: 414px;
+	z-index: 1;
+}
+#piernaDerH {
+	position: absolute;
+	left: 182px;
+	top: 485px;
+	z-index: 1;
+}
+#piernaIqzH {
+	position: absolute;
+	left: 110px;
+	top: 490px;
+	z-index: 1;
+}
+
+/*Mujer*/
+#barrigaM {
+	position: absolute;
+	left: 489px;
+	top: 326px;
+	z-index: 1;
+	height: 121px;
+}
+#torsoM {
+	position: absolute;
+	left: 491px;
+	top: 213px;
+	z-index: 1;
+}
+#cabezaM {
+	position: absolute;
+	left: 492px;
+	top: 84px;
+	z-index: 1;
+}
+#brazoIzqM {
+	position: absolute;
+	left: 424px;
+	top: 213px;
+	z-index: 2;
+}
+#brazoDerM {
+	position: absolute;
+	left: 599px;
+	top: 214px;
+	z-index: 2;
+}
+#manoDerM {
+	position: absolute;
+	left: 615px;
+	top: 456px;
+	z-index: 1;
+}
+#manoIzqM {
+	position: absolute;
+	left: 407px;
+	top: 456px;
+	z-index: 1;
+}
+#cinturaM {
+	position: absolute;
+	left: 470px;
+	top: 399px;
+	z-index: 1;
+}
+#piernaDerM {
+	position: absolute;
+	left: 544px;
+	top: 496px;
+	z-index: 1;
+}
+#piernaIzqM {
+	position: absolute;
+	left: 463px;
+	top: 495px;
+	z-index: 1;
+}
