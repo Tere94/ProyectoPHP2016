@@ -9,131 +9,284 @@ opacity: 1.0;}
 filter:alpha(opacity=50);
 -moz-opacity: 0.5;
 opacity: 0.5;
-}
+}   
 
-
-/*Hombre*/
+/*Hombre Delante*/
 #barrigaH {
 	position: absolute;
-	left: 109px;
-	top: 305px;
-	z-index: 2;
+	left: 146px;
+	top: 357px;
+	z-index: 1;
 	height: 121px;
+	width: 157px;
 }
 #torsoH {
 	position: absolute;
-	left: 110px;
-	top: 212px;
+	left: 152px;
+	top: 262px;
 	z-index: 1;
 }
 #cabezaH {
 	position: absolute;
-	left: 110px;
-	top: 87px;
+	left: 180px;
+	top: 131px;
+	z-index: 1;
+}
+#antebrazoIzqH {
+	position: absolute;
+	left: 296px;
+	top: 372px;
+	z-index: 2;
+}
+#antebrazoDerH {
+	position: absolute;
+	left: 76px;
+	top: 392px;
+	z-index: 2;
+}
+#hombroIzqH {
+	position: absolute;
+	left: 283px;
+	top: 253px;
+	z-index: 2;
+}
+#hombroDerH {
+	position: absolute;
+	left: 108px;
+	top: 255px;
 	z-index: 1;
 }
 #brazoIzqH {
 	position: absolute;
-	left: 42px;
-	top: 213px;
-	z-index: 2;
+	left: 287px;
+	top: 319px;
+	z-index: 1;
 }
 #brazoDerH {
 	position: absolute;
-	left: 248px;
-	top: 211px;
-	z-index: 2;
-}
-#manoDerH {
-	position: absolute;
-	left: 282px;
-	top: 437px;
+	left: 100px;
+	top: 311px;
 	z-index: 1;
 }
-#manoIzqH {
+#cuelloH {
 	position: absolute;
-	left: 23px;
-	top: 434px;
+	left: 160px;
+	top: 224px;
 	z-index: 1;
 }
 #cinturaH {
 	position: absolute;
-	left: 109px;
-	top: 414px;
+	left: 131px;
+	top: 467px;
+	z-index: 1;
+	width: 187px;
+}
+#manoDerH {
+	position: absolute;
+	left: 53px;
+	top: 493px;
 	z-index: 1;
 }
-#piernaDerH {
+#manoIzqH {
 	position: absolute;
-	left: 182px;
-	top: 485px;
+	left: 333px;
+	top: 483px;
 	z-index: 1;
 }
-#piernaIqzH {
+#piernaArribaDerH {
 	position: absolute;
-	left: 110px;
-	top: 490px;
+	left: 137px;
+	top: 574px;
+	z-index: 1;
+	width: 90px;
+}
+#piernaArribaIzqH {
+	position: absolute;
+	left: 220px;
+	top: 570px;
+	z-index: 1;
+	width: 103px;
+}
+#rodillaIzqH {
+	position: absolute;
+	left: 234px;
+	top: 651px;
+	z-index: 1;
+}
+#rodillaDerH {
+	position: absolute;
+	left: 143px;
+	top: 660px;
+	z-index: 1;
+}
+#piernaAbajoIzqH {
+	position: absolute;
+	left: 234px;
+	top: 699px;
+	z-index: 1;
+}
+#piernaAbajoDerH {
+	position: absolute;
+	left: 144px;
+	top: 701px;
+	z-index: 1;
+}
+#pieIzqH {
+	position: absolute;
+	left: 234px;
+	top: 843px;
+	z-index: 1;
+}
+#pieDerH {
+	position: absolute;
+	left: 141px;
+	top: 847px;
 	z-index: 1;
 }
 
-/*Mujer*/
-#barrigaM {
+/*Hombre Detras*/
+#espalda2Hd {
 	position: absolute;
-	left: 489px;
-	top: 326px;
-	z-index: 1;
-	height: 121px;
-}
-#torsoM {
-	position: absolute;
-	left: 491px;
-	top: 213px;
-	z-index: 1;
-}
-#cabezaM {
-	position: absolute;
-	left: 492px;
-	top: 84px;
-	z-index: 1;
-}
-#brazoIzqM {
-	position: absolute;
-	left: 424px;
-	top: 213px;
+	left: 677px;
+	top: 374px;
 	z-index: 2;
+	height: 112px;
+	width: 154px;
 }
-#brazoDerM {
+#espalda1Hd {
 	position: absolute;
-	left: 599px;
-	top: 214px;
+	left: 661px;
+	top: 238px;
 	z-index: 2;
+	height: 143px;
+	width: 178px;
 }
-#manoDerM {
+#cabezaHd {
 	position: absolute;
-	left: 615px;
-	top: 456px;
-	z-index: 1;
+	left: 673px;
+	top: 93px;
+	z-index: 2;
+	width: 129px;
+	height: 134px;
 }
-#manoIzqM {
+#antebrazoIzqHd {
 	position: absolute;
-	left: 407px;
-	top: 456px;
-	z-index: 1;
-}
-#cinturaM {
-	position: absolute;
-	left: 470px;
+	left: 591px;
 	top: 399px;
+	z-index: 2;
+	width: 91px;
+}
+#antebrazoDerHd {
+	position: absolute;
+	left: 824px;
+	top: 385px;
+	z-index: 2;
+	height: 105px;
+	width: 89px;
+}
+#hombroIzqHd {
+	position: absolute;
+	left: 627px;
+	top: 247px;
+	z-index: 2;
+	height: 66px;
+}
+#hombroDerHd {
+	position: absolute;
+	left: 829px;
+	top: 250px;
+	z-index: 1;
+	height: 60px;
+	width: 54px;
+}
+#brazoIzqHd {
+	position: absolute;
+	left: 609px;
+	top: 307px;
+	z-index: 1;
+	width: 78px;
+	height: 99px;
+}
+#brazoDerHd {
+	position: absolute;
+	left: 818px;
+	top: 302px;
+	z-index: 1;
+	width: 76px;
+}
+#cuelloHd {
+	position: absolute;
+	left: 703px;
+	top: 217px;
+	z-index: 2;
+	width: 116px;
+	height: 29px;
+}
+#culoHd {
+	position: absolute;
+	left: 660px;
+	top: 479px;
+	z-index: 1;
+	width: 187px;
+}
+#manoDerHd {
+	position: absolute;
+	left: 852px;
+	top: 478px;
+	z-index: 1;
+	width: 73px;
+}
+#manoIzqHd {
+	position: absolute;
+	left: 580px;
+	top: 497px;
 	z-index: 1;
 }
-#piernaDerM {
+#piernaArribaIzqHd {
 	position: absolute;
-	left: 544px;
-	top: 496px;
+	left: 659px;
+	top: 579px;
 	z-index: 1;
+	width: 96px;
+	height: 141px;
 }
-#piernaIzqM {
+#piernaArribaDerHd {
 	position: absolute;
-	left: 463px;
-	top: 495px;
+	left: 748px;
+	top: 573px;
 	z-index: 1;
+	width: 101px;
+	height: 145px;
+}
+#piernaAbajoIzqHd {
+	position: absolute;
+	left: 663px;
+	top: 703px;
+	z-index: 1;
+	width: 93px;
+	height: 171px;
+}
+#piernaAbajoDerHd {
+	position: absolute;
+	left: 750px;
+	top: 714px;
+	z-index: 1;
+	height: 151px;
+	width: 88px;
+}
+#pieIzqHd {
+	position: absolute;
+	left: 663px;
+	top: 865px;
+	z-index: 2;
+	width: 88px;
+	height: 64px;
+}
+#pieDerHd {
+	position: absolute;
+	left: 759px;
+	top: 853px;
+	z-index: 2;
+	width: 69px;
+	height: 69px;
 }
